@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  post 'items/create' => 'items#create'
+
+  get 'items/destory'
+
   root "businesses#index"
   resources :businesses
 

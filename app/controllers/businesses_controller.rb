@@ -19,6 +19,7 @@ class BusinessesController < ApplicationController
 
   # GET /businesses/1/edit
   def edit
+    @item = Item.new
   end
 
   # POST /businesses
